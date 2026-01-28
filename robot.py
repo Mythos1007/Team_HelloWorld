@@ -79,7 +79,7 @@ class RobotSystem:
         # rosbridge 퍼블리셔
         # -------------------------------
         self.publisher = RosbridgePublisher(
-            ws_url="ws://192.168.0.93:9090"  # ← 로봇 IP
+            ws_url="ws://0.0.0.0:9090"  # ← 로봇 IP
         )
 
         # -------------------------------
