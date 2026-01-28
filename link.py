@@ -15,7 +15,7 @@ class RosbridgePublisher:
     def __init__(self, ws_url: str):
         """
         ws_url: rosbridge 웹소켓 주소
-        예) ws://192.168.0.68:9090
+        예) ws://0.0.0.0:9090
         """
         self.ws_url = ws_url
         self.ws = websocket.WebSocket()
